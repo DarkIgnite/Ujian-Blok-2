@@ -123,3 +123,14 @@ img:hover {
 .paragraph {
     text-align: justify;
 }
+
+.sidebar img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.adat {
+    text-align: center;
+}
