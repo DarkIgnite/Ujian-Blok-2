@@ -16,7 +16,7 @@ body {
     padding: 10px;
     background-color: #20213a;
     border-radius: 20px 20px 0 0;
-    box-shadow: 0 2px 8px rgba(44,44,84,0.12);
+    box-shadow: 0 2px 8px rgba(44, 44, 84, 0.12);
 }
 
 .header .judul {
@@ -63,16 +63,16 @@ body {
 }
 
 .cf:before,
-.cf:after{
+.cf:after {
     content: "";
     display: table;
 }
 
-.cf:after{
+.cf:after {
     clear: both;
 }
 
-.cff{
+.cff {
     *zoom: 1;
 }
 
@@ -102,9 +102,9 @@ body {
 }
 
 img:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 0.5s;
-    box-shadow: 0 4px 16px rgba(44,44,84,0.25);
+    box-shadow: 0 4px 16px rgba(44, 44, 84, 0.25);
 }
 
 .foto {
@@ -112,9 +112,14 @@ img:hover {
     border: 2px solid #8ecae6;
     background: #23243a;
 }
+
 .kontak-map {
-  flex: 1 1 450px;
-  border-radius: 12px;
-  padding: 16px;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    flex: 1 1 450px;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.paragraph {
+    text-align: justify;
 }
