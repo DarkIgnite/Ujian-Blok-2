@@ -10,10 +10,11 @@ body {
     margin: auto;
     border-radius: 20px;
     box-shadow: 0 8px 32px 0 rgba(44, 44, 84, 0.37);
+    padding: 10px;
 }
 
 .header {
-    padding: 10px;
+    padding: 15px;
     background-color: #20213a;
     border-radius: 20px 20px 0 0;
     box-shadow: 0 2px 8px rgba(44, 44, 84, 0.12);
@@ -52,6 +53,8 @@ body {
     box-sizing: border-box;
     float: left;
     color: #E0E6F6;
+    position: relative;
+    bottom: 20px;
 }
 
 .sidebar {
@@ -59,7 +62,7 @@ body {
     padding: 20px;
     float: right;
     border-radius: 12px;
-    color: #bfc8e2;
+    color: #8ecae6;
 }
 
 .cf:before,
@@ -91,6 +94,11 @@ body {
     font-weight: bold;
 }
 
+.sidebar {
+    position: relative;
+    bottom: 10px;
+}
+
 .sidebar a {
     color: #8ecae6;
     text-decoration: none;
@@ -109,7 +117,6 @@ img:hover {
 
 .foto {
     border-radius: 12px;
-    border: 2px solid #8ecae6;
     background: #23243a;
 }
 
@@ -133,4 +140,11 @@ img:hover {
 
 .adat {
     text-align: center;
+    position: relative;
+    bottom: 5px;
+}
+
+.biodata {
+    text-align: center;
+    position: relative;
 }
